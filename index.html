@@ -1,0 +1,144 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Solver</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div id="background"></div>
+    <div id="blur"></div>
+    <div id="inside">
+        <div id="container" roman>
+            <h1>Citadelle des Morts</h1>
+            <hr>
+
+            <div class="menu-title" to="flasks">
+                <h2 class="arrow">▼</h2>
+                <h2>The Flasks</h2>
+                <h2 class="arrow">▼</h2>
+            </div>
+
+
+            <div class="content" id="flasks">
+
+            </div>
+
+            <div class="input">
+                <input id="flask-code-input" type="text" placeholder="Code">
+                <button id="flask-lock" type="button">Lock</button>
+                <button id="flask-copy" type="button">Copy</button>
+                <button id="flask-update" type="button">Paste</button>
+            </div>
+
+
+            <div class="case" id="case-template" type="flask" style="--data-order: -1" order="-1" index="-1">
+                <div class="symbol">
+                    <img src="./public/0.png" alt="symbol">
+                    <img src="./public/0.png" alt="symbol-2">
+                    <img src="./public/0.png" alt="symbol-3">
+                </div>
+                <p class="order">
+                    <span></span>
+                </p>
+            </div>
+
+
+            <hr>
+
+
+            <div class="menu-title" to="traps">
+                <h2 class="arrow">▼</h2>
+                <h2>The Traps</h2>
+                <h2 class="arrow">▼</h2>
+            </div>
+
+            <div class="content" id="traps">
+
+            </div>
+
+
+            <div class="input">
+                <input id="trap-code-input" type="text" placeholder="Code">
+                <button id="trap-lock" type="button">Lock</button>
+                <button id="trap-copy" type="button">Copy</button>
+                <button id="trap-update" type="button">Paste</button>
+            </div>
+
+
+            <div class="case" id="case-template" type="trap" style="--data-order: -1" order="-1">
+                <div class="symbol">
+                    <img src="./public/0.png" alt="symbol">
+                    <img src="./public/0.png" alt="symbol-2">
+                    <img src="./public/0.png" alt="symbol-3">
+                </div>
+                <p class="order">
+                    <span></span>
+                </p>
+            </div>
+
+
+
+            <hr>
+
+            <div class="menu-title" to="orbs">
+                <h2 class="arrow">▼</h2>
+                <h2>The Mystic Orb</h2>
+                <h2 class="arrow">▼</h2>
+            </div>
+
+            <div class="content" id="orbs">
+
+
+
+            </div>
+
+            <div class="input">
+                <input id="orb-code-input" type="text" placeholder="Code">
+                <button id="orb-lock" type="button">Lock</button>
+                <button id="orb-copy" type="button">Copy</button>
+                <button id="orb-update" type="button">Paste</button>
+            </div>
+
+            <div class="case" id="case-template" type="orb" style="--data-order: -1" order="-1">
+                <div class="symbol">
+                    <img src="./public/0.png" alt="symbol-3">
+                    <img src="./public/0.png" alt="symbol-2">
+                    <img src="./public/0.png" alt="symbol">
+                </div>
+                <p class="order">
+                    <span></span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="roman-arabic-switcher" roman>
+        <div class="switch roman-arabic">
+            <span class="roman">I</span>
+            <span class="arr"> > </span>
+            <span class="arabic">1</span>
+        </div>
+        <div class="switch arabic-roman">
+            <span class="arabic">1</span>
+            <span class="arr"> > </span>
+            <span class="roman">I</span>
+        </div>
+    </div>
+
+
+    <div id="credits">
+        <p>Created by Rayzox57</p>
+    </div>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/flasks.js"></script>
+    <script src="./scripts/traps.js"></script>
+    <script src="./scripts/orbs.js"></script>
+    <script src="./scripts/roman_arabic_switcher.js"></script>
+
+
+</body>
+
+</html>
