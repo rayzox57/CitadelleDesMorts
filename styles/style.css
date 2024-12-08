@@ -456,6 +456,10 @@ h2 {
 	h2 {
 		font-size: 1.2rem;
 	}
+
+	#container .input button {
+		width: 100px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -467,5 +471,13 @@ h2 {
 	}
 	h2 {
 		font-size: 1rem;
+	}
+
+	#container .input input {
+		width: 100px;
+	}
+
+	#container .input button {
+		width: 60px;
 	}
 }
